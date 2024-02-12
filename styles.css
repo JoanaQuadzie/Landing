@@ -24,7 +24,7 @@ body{
 }
 
 a{
-    font-size: 30px;
+    font-size: 1rem;
     text-decoration: none;
     color: bisque;
     font-family: 'Times New Roman', Times, serif;
@@ -42,7 +42,8 @@ a{
 .icon{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: bisque;
+    color: #e9880a;;
+    font-size: 1.5rem;
 }
     
 ul{
@@ -106,7 +107,54 @@ span{
     padding: 12px;
     font-size: 17px;
 }
+.new-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: #13050a;
+}
 
+
+.new-item-text{
+    padding: 40px;
+    color: blue;
+}
+
+.text{
+    text-align: left;
+    padding: 10px 0;
+}
+
+.text h3{
+    padding: 14px 0;
+    color: red;
+}
+
+img{
+    width: 100%;
+}
+
+.img{
+    width: 70%;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 17px;
+    grid-row-gap: 0px;
+    text-align: center;
+    }
+
+.service{
+    padding-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+.services-card{
+    padding: 50px;
+}
 
         
 
