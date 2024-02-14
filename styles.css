@@ -158,20 +158,24 @@ img{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 17px;
-    grid-row-gap: 0px;
+    grid-row-gap: 8px;
     text-align: center;
     }
 
 .services{
-    padding-top: 100px;
+    padding-top: 80px;
     align-items: center;
     text-align: center;
 }
 .service {
     text-align: center;
+    font-size: 20px;
+    background-color: lightcoral;
 }
 .services-card{
-    padding: 50px;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .Product-item{
@@ -186,6 +190,7 @@ img{
         padding-top: 100px;
         align-items: center;
         text-align: center;
+        background-color: palegoldenrod;
 } 
 
 .Products h3{
@@ -202,19 +207,22 @@ img{
 .Product-card img{
     width: 300px;
     height: 300px;
+    border-radius: 2rem;
     
 }
 .Product-card p{
     padding: 5px;
 
 }
-.Team Members{
+.Team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 24px;
-    grid-row-gap: 0px;
+    grid-column-gap: 30px;
+    grid-row-gap: 80px;
+    
 }
+
 
 
 
