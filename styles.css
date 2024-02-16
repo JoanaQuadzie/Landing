@@ -220,23 +220,38 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: 1fr;
 grid-column-gap: 10px;
 grid-row-gap: 0px;
+/* justify-content: space-around; */
+
+
     
  
     
 }
+
+.Team-Members{
+    margin-right: 50px;
+
+}
+
 .Team-Members img{
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 6rem;
+    width: 25vw;
+    height: 35vh;
+    border-radius: 10px;
 }
 .Teams h3{
     margin-bottom: 40px ;
     font-size: 2rem;
     text-align: center;
     padding: 5px;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.Teams{
+    margin: 50px 40px;
+    
 }
 
 
