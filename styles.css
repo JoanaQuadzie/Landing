@@ -75,6 +75,7 @@ li{
     color:rgb(15, 15, 15);
     padding: 120px 0 30px;
     margin: auto;
+    width: 50%;
 }
 
 span{
@@ -269,8 +270,8 @@ grid-row-gap: 0px;
     width: 250px;
     height: 250px;
     border-radius: 10rem;
-    padding: 3rem;
-    padding-left: 2rem;
+    /* padding: 3rem;
+    padding-left: 2rem; */
     margin-left: 3px;
     margin-right: 3px;
 }
